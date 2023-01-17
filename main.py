@@ -31,7 +31,7 @@ mail = Mail(app)
 # ? This is pymongo to atlas
 client=MongoClient(connection_string,connect=True)
 db=client['Flask_book_system']
-session['attempt'] = 0
+# session['attempt'] = 0
 
 
 @app.route("/")
